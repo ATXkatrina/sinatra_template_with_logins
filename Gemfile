@@ -12,6 +12,8 @@ gem 'activerecord', '~>4.1'
 
 gem 'rake'
 
+gem 'pry'
+
 # Use Thin for our web server
 gem 'thin'
 gem 'shotgun'
