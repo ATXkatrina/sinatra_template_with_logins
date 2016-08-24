@@ -1,7 +1,7 @@
 # Sinatra Template, no logins
 
 ## Summary
-This basic Sinatra template was made from an assignment for Dev Bootcamp students. It can be used to spped up the process of creating Sinatra web apps.
+This basic Sinatra template includes BCrypt logins and was made from a pre-existing assignment for Dev Bootcamp students and can be used to speed up the process of creating Sinatra web apps.
 
 
 
