@@ -14,6 +14,11 @@ gem 'rake'
 
 gem 'pry'
 
+gem 'eventmachine', '~> 1.0.3'
+
+gem 'bcrypt'
+
+
 # Use Thin for our web server
 gem 'thin'
 gem 'shotgun'

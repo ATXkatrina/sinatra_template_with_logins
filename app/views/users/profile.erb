@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Welcome to your personal Channel List!</h1>
+
+  <table>
+    <tr>
+      <th>Channels</th>
+      <th>Prices</th>
+    </tr>
+    <% @channels.each do |channel| %>
+    <tr>
+      <td><%= channel.name %></td>
+    </tr>
+    <% end %>
+  </table>
+</div>

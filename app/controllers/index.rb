@@ -1,1 +1,3 @@
-# post and get routes
+get '/' do
+  erb :'index'
+end

@@ -19,6 +19,17 @@
 </head>
 
 <body>
+  <div id="nav">
+    <% if current_user %>
+      <p><a href ='#'>Profile</a></p>
+      <p><a href='/logout'>Logout</a></p>
+    <% else %>
+      <p><a href='/login'>Login</a></p>
+      <p><a href='/register'>Register</a></p>
+      <p><a href='/logout'>Logout</a></p>
+    <% end %>
+  </div>
+
   <%= yield %>
 </body>
 </html>

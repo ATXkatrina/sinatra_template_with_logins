@@ -2,6 +2,11 @@ h1 {
   margin: 0 0 1em 0;
 }
 
+#nav {
+  float: right;
+  padding: 15px;
+}
+
 input {
   display: block;
   width: 100%;
